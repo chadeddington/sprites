@@ -25,7 +25,7 @@ function start() {
 	sy = 0;
 	// Because frame per frame is way too fast
 	ticks = 0;
-	maxTicks = 5;
+	maxTicks = 3;
 	width = 35;
 	context.clearRect(0,0,canvas.width,canvas.height);
 	context.fillStyle="green";
